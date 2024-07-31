@@ -1,0 +1,8 @@
+Command For Copy File From Computer That Remote (Window to Linux) :
+
+scp testusr@10.196.66.84:Desktop/Intern/test.py C:\Users\th62023012\Desktop\Practice 
+
+	User and IP Remote      Path Remote		  Path Main Computer
+
+
+

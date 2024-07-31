@@ -4,7 +4,6 @@ from datetime import datetime
 import schedule
 import time
 
-# เชื่อมต่อกับ MongoDB
 client = MongoClient('mongodb://localhost:27017/')
 db = client['myDatabase']
 users_collection = db['internDatabase']

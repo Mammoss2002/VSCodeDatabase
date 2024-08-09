@@ -9,7 +9,7 @@ db = client['myDatabase']
 users_collection = db['internDatabase']
 
 def fetch_and_send_data():
-    url = 'http://172.31.6.72:8090/get_all_process_stations_ui/'
+    url = 'http://"IP_ADDRESS"/get_all_process_stations_ui/'
     response = requests.get(url)
     
     if response.status_code == 200:
